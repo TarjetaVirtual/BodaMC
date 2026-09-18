@@ -1824,29 +1824,77 @@
 
                 <!-- Paleta Sugerida -->
                 <div style="margin-bottom: 20px; color: #5d4936; font-size: 0.8rem; text-align: center;">
-                    <p style="letter-spacing: 2px; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
-                        Paleta Sugerida</p>
+                  <p style="letter-spacing: 2px; text-transform: uppercase; font-weight: bold; margin-bottom: 15px;">
+    Colores a Evitar
+</p>
 
-                    <div
-                        style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 10px; flex-wrap: wrap;">
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #C6B6A5;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #B89B7D;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #8E8075;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #55443C;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #494C3A;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #828B78;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #9E7D7C;"></div>
-                        <div style="width: 28px; height: 28px; border-radius: 50%; background-color: #4A1D24;"></div>
-                    </div>
+<div style="
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 16px; 
+  flex-wrap: wrap; 
+  padding: 12px;
+  font-family: system-ui, -apple-system, sans-serif;
+">
 
-                    <p
-                        style="font-size: 0.75rem; color: #5d4936; font-style: italic; margin-top: 15px; margin-bottom: 5px;">
-                        Tonos neutros, tierra y naturales.
-                    </p>
-                    <p style="font-size: 0.7rem; color: #5d4936; font-style: italic; margin-top: 0;">
-                        <br>"Los tonos son únicamente una sugerencia para acompañar la estética de nuestra celebración."
-                    </p>
+  <!-- Estilo reutilizable para los items -->
+  <style>
+    .color-swatch {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #333;
+    }
+    .color-circle {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+      transition: transform 0.2s ease;
+    }
+    .color-circle:hover {
+      transform: scale(1.1);
+    }
+  </style>
 
+  <!-- Blanco -->
+  <div class="color-swatch">
+    <div class="color-circle" style="background-color: #FFFFFF; border: 1px solid #E0E0E0;"></div>
+    <span>Blanco</span>
+  </div>
+
+  <!-- Marfil -->
+  <div class="color-swatch">
+    <div class="color-circle" style="background-color: #F2E9DE;"></div>
+    <span>Marfil</span>
+  </div>
+
+  <!-- Beige -->
+  <div class="color-swatch">
+    <div class="color-circle" style="background-color: #D8CCBB;"></div>
+    <span>Beige</span>
+  </div>
+
+  <!-- Champán -->
+  <div class="color-swatch">
+    <div class="color-circle" style="background-color: #C5AA78;"></div>
+    <span>Champán</span>
+  </div>
+
+  <!-- Borgoña -->
+  <div class="color-swatch">
+    <div class="color-circle" style="background-color: #6D2025;"></div>
+    <span>Borgoña</span>
+  </div>
+
+</div>
+
+<p style="font-size: 11px; font-style: italic; margin-top: 15px;">
+    "Tonos reservados para los novios. Les agradecemos elegir otros colores para su look."
+</p>
                     <hr style="width: 40px; border: 0; border-top: 1px solid #a69683; margin: 15px auto;" />
 
                     <p style="font-size: 0.7rem; color: #5d4936; letter-spacing: 1px;  margin-top: 15px;">
